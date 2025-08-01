@@ -40,7 +40,7 @@ cd Food_Ordering_Frontend
 
 📦 Install Dependencies
     
-    npm start
+    npm  install
     
 🚴‍♂️ Run the App
 
