@@ -9,7 +9,6 @@ const Home = () => {
   const navigate = useNavigate();
   const [trendingProducts, setTrendingProducts] = useState([]);
   useEffect(() => {
-    // Fetch top trending products
     fetch("https://swiggy-api-4c740.web.app/swiggy-api.json")
       .then(res => res.json())
       .then(data => setTrendingProducts(data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants));
@@ -34,7 +33,6 @@ const Home = () => {
 
   return (
     <div className="flex flex-col gap-10 pb-10">
-      {/* ✅ Hero Section */}
       <section className="w-full">
         <Slider {...sliderSettings}>
           {heroImages.map((img, idx) => (
@@ -68,8 +66,6 @@ const Home = () => {
           ))}
         </Slider>
       </section>
-
-      {/* 🔥 Top Trending Section */}
       <section className="px-4">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">Top Trending Restaurants</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

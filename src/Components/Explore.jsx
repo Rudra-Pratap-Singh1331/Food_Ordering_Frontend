@@ -5,7 +5,7 @@ import pizzaData from "../data/pizzajson";
 import shakesData from "../data/sahkes";
 
 const fallbackImg =
-  "https://images.unsplash.com/photo-1585155772603-8d08a48d42c2?auto=format&fit=crop&w=800&q=80"; // Cutlery dummy image
+  "https://images.unsplash.com/photo-1585155772603-8d08a48d42c2?auto=format&fit=crop&w=800&q=80"; 
 
 const SectionCard = ({ restro }) => {
   const imageUrl = restro.image || fallbackImg;

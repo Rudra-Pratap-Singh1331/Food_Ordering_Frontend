@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useCart } from '../uceCart'; // ✅ Do not change file name
+import { useCart } from '../uceCart';
 
 const RestroDetail = () => {
   const { addToCart } = useCart();
@@ -41,7 +41,7 @@ const RestroDetail = () => {
     addToCart({
       id: itemInfo.id,
       name: itemInfo.name,
-      price: Math.floor(price / 100), // ₹ amount
+      price: Math.floor(price / 100), 
       quantity: 1,
       image: itemInfo.imageId
         ? `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_64,h_64,c_fill/${itemInfo.imageId}`

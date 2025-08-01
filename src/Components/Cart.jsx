@@ -50,8 +50,6 @@ const Cart = () => {
               </div>
             </div>
           ))}
-
-          {/* Billing Section */}
           <div className="mt-6 p-4 bg-gray-50 rounded shadow">
             <h4 className="text-xl font-semibold mb-2">Billing Summary</h4>
             <div className="flex justify-between"><span>Subtotal</span><span>₹{subtotal.toFixed(2)}</span></div>
