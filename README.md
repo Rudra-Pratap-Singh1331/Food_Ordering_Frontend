@@ -1,12 +1,47 @@
-# React + Vite
+# 🍕 Food Ordering Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React.js web application for food ordering inspired by Swiggy and Zomato. Users can browse restaurants, view detailed menus, and manage their cart in real-time.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📱 Responsive and modern UI
+- 🏪 Restaurant listing with dynamic detail pages
+- 🍔 Menu items with "Add to Cart" functionality
+- 🛒 Real-time cart management
+- 🔔 Toast notifications for actions (e.g. item added)
+- 🧭 React Router for seamless navigation
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React.js**
+- **React Router**
+- **Context API / Custom Hooks** (for cart management)
+- **CSS / Tailwind / Styled Components** (based on your implementation)
+- **Toastify** for notifications
+
+---
+
+## 🔄 How to Use This Project
+
+### 1. 💾 Fork This Repository
+
+Click the `Fork` button in the top-right corner of this repository to make a personal copy.
+
+### 2. ⬇️ Clone Your Fork
+
+Open your terminal and run:
+
+```bash
+git clone https://github.com/<your-username>/Food_Ordering_Frontend.git
+cd Food_Ordering_Frontend
+```
+
+📦 Install Dependencies
+    
+    npm start
+    
+🚴‍♂️ Run the App
+
+    npm start
