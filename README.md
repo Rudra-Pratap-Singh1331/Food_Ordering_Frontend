@@ -17,7 +17,7 @@ A responsive React.js web application for food ordering inspired by Swiggy and Z
 
 - **React.js**
 - **React Router**
-- **Context API / Custom Hooks** (for cart management)
+- **Context API**
 - **CSS / Tailwind / Styled Components**
 - **Toastify** for notifications
 
